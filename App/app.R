@@ -255,18 +255,7 @@ ui <- dashboardPage(
                      style='font-size:40px; color:black;'),
             width = 12),
     
-    box(width=6,
-        color='ligth-blue',
-        
-          icon = icon('people-group'),
-          h1(strong("Group members")),
-          br(),
-          h3(strong("  Rafayel Antonyan")),
-          br(),
-          h3(strong("  Hakob Hakobyan")),
-          br(),
-          h3(strong("  Alber Makaryan")),
-          br()),
+   
     
     
     
