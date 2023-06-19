@@ -734,6 +734,7 @@ ui <- dashboardPage(
                   label='Dependence',
                   selected='Positive',
                   choices=c('Positive','Negative','Neutral','Informative','NotInformative')),
+                
                 verbatimTextOutput('bing_model_summary_tf_idf'))))),
     
     # -----------------------------------------------------------------
